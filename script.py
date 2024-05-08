@@ -11,8 +11,8 @@ bot = telebot.TeleBot('') # BOT TOKEN
 
 users = {}
 
-last_photo_time = {}  # словарь для хранения времени последней отправки фото от каждого пользователя
-last_video_time = {}  # словарь для хранения времени последней отправки фото от каждого пользователя
+last_photo_time = {} 
+last_video_time = {} 
 
 
 @bot.message_handler(commands=['start'])
